@@ -1,0 +1,45 @@
+.card-container{
+    display:flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around;
+    align-items: end; */
+    text-align: center;
+    align-content: start;;
+    /* height:100vh; */
+    gap:20px;
+}
+
+.card{
+    background-color: blue;
+    width:calc(100% -(10px*3))/4;
+    color:white;
+    padding:20px;
+    width:100px;
+    height:50px;
+}
+/* item property */
+.flex-container {
+    display: flex;
+    border: 5px solid red;
+    /* padding: 10px; */
+  }
+  .item {
+    height: 50px;
+  }
+  .item1 {
+    flex-basis: 400px;
+    flex-shrink: 0;
+    background-color: hotpink;
+  }
+  .item2 {
+    flex-basis: 400px;
+    flex-shrink: 1;
+    background-color: aqua;
+  }
+  .item3 {
+    flex-basis: 500px;
+    /* flex-grow: 1; */
+    flex-shrink: 2;
+    background-color: blueviolet;
+  }
+  

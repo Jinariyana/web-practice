@@ -1,0 +1,18 @@
+table{
+    border-collapse: collapse;
+    height:100px;
+    width:70%;
+}
+
+thead{
+    background-color: antiquewhite;
+}
+/* make sure row or colum
+tr td:nth-child(1){
+    background-color: rgb(15, 252, 252);
+}
+*/
+tbody tr:hover{
+    background-color: bisque;
+
+}

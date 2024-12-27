@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        div{
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <form action="#"></form>
+        <div>
+            <label for="username"> Username:</label>
+            <input type="text" id="username"  name="username" placeholder="username" required>
+        </div>
+ 
+         <div>
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" placeholder="password">
+         </div>
+
+         <!-- choose option -->
+          <div>
+            <!-- type 1-->
+            <label for="major">Choose major</label>
+            <br>
+           <input type="radio" name="major" value="IT">IT <br>
+           <input type="radio" name="major" value="Computer sccience">Computer Science <br>
+          </div>
+          <div>
+          <label for="it">IT</label>
+          <input type="radio" id="it" name="major">
+          <label for="marketing">Marketing</label>
+          <input type="radio" id="marketing " name="major">
+          </div>
+
+         <input type="button" value="Submit">
+    </main>
+</body>
+</html>

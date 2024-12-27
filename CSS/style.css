@@ -1,0 +1,34 @@
+*{
+  font-family: "Playwrite GB J Guides", cursive;
+}
+
+.card-container{
+  background-color: #eaebef;
+  width:50%;
+  padding:20px; 
+  /* dak komleat */
+ /* top right buttom left*/
+ /* dak boder oy poat jom vinh */
+ border: 2px solid red;
+}
+
+h2{
+  margin-top: 0;
+  text-align: center;
+}
+
+
+button{
+  background-color:#;
+  border:none;
+  padding: 10px 20px;
+  border-radius: 6px; 
+}
+
+h2, span{
+  color:darkblue;
+  letter-spacing: 2px;
+}
+span{
+  font-weight:border;
+}
